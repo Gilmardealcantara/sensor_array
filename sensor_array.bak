@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:sensor_array-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -59,7 +60,7 @@ U 1 1 5B5BCAD6
 P 2050 3950
 F 0 "R1" V 2130 3950 50  0000 C CNN
 F 1 "4.7k" V 2050 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 1980 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 1980 3950 50  0001 C CNN
 F 3 "" H 2050 3950 50  0000 C CNN
 	1    2050 3950
 	1    0    0    -1  
@@ -70,7 +71,7 @@ U 1 1 5B5BCAFD
 P 2850 3950
 F 0 "R2" V 2930 3950 50  0000 C CNN
 F 1 "100R" V 2850 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2780 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2780 3950 50  0001 C CNN
 F 3 "" H 2850 3950 50  0000 C CNN
 	1    2850 3950
 	1    0    0    -1  
@@ -153,7 +154,7 @@ U 1 1 5B5BD117
 P 3050 3950
 F 0 "R3" V 3130 3950 50  0000 C CNN
 F 1 "4.7k" V 3050 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2980 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2980 3950 50  0001 C CNN
 F 3 "" H 3050 3950 50  0000 C CNN
 	1    3050 3950
 	1    0    0    -1  
@@ -164,7 +165,7 @@ U 1 1 5B5BD11D
 P 3850 3950
 F 0 "R4" V 3930 3950 50  0000 C CNN
 F 1 "100R" V 3850 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 3780 3950 50  0001 C CNN
 F 3 "" H 3850 3950 50  0000 C CNN
 	1    3850 3950
 	1    0    0    -1  
@@ -234,7 +235,7 @@ U 1 1 5B5BD50A
 P 4000 3950
 F 0 "R5" V 4080 3950 50  0000 C CNN
 F 1 "4.7k" V 4000 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3930 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 3930 3950 50  0001 C CNN
 F 3 "" H 4000 3950 50  0000 C CNN
 	1    4000 3950
 	1    0    0    -1  
@@ -245,7 +246,7 @@ U 1 1 5B5BD510
 P 4800 3950
 F 0 "R6" V 4880 3950 50  0000 C CNN
 F 1 "100R" V 4800 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4730 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 4730 3950 50  0001 C CNN
 F 3 "" H 4800 3950 50  0000 C CNN
 	1    4800 3950
 	1    0    0    -1  
@@ -315,7 +316,7 @@ U 1 1 5B5BD536
 P 5000 3950
 F 0 "R7" V 5080 3950 50  0000 C CNN
 F 1 "4.7k" V 5000 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4930 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 4930 3950 50  0001 C CNN
 F 3 "" H 5000 3950 50  0000 C CNN
 	1    5000 3950
 	1    0    0    -1  
@@ -326,7 +327,7 @@ U 1 1 5B5BD53C
 P 5800 3950
 F 0 "R8" V 5880 3950 50  0000 C CNN
 F 1 "100R" V 5800 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5730 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 5730 3950 50  0001 C CNN
 F 3 "" H 5800 3950 50  0000 C CNN
 	1    5800 3950
 	1    0    0    -1  
@@ -396,7 +397,7 @@ U 1 1 5B5BDF86
 P 5950 3950
 F 0 "R9" V 6030 3950 50  0000 C CNN
 F 1 "4.7k" V 5950 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5880 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 5880 3950 50  0001 C CNN
 F 3 "" H 5950 3950 50  0000 C CNN
 	1    5950 3950
 	1    0    0    -1  
@@ -407,7 +408,7 @@ U 1 1 5B5BDF8C
 P 6750 3950
 F 0 "R10" V 6830 3950 50  0000 C CNN
 F 1 "100R" V 6750 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 6680 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 6680 3950 50  0001 C CNN
 F 3 "" H 6750 3950 50  0000 C CNN
 	1    6750 3950
 	1    0    0    -1  
@@ -477,7 +478,7 @@ U 1 1 5B5BDFB2
 P 6950 3950
 F 0 "R11" V 7030 3950 50  0000 C CNN
 F 1 "4.7k" V 6950 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 6880 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 6880 3950 50  0001 C CNN
 F 3 "" H 6950 3950 50  0000 C CNN
 	1    6950 3950
 	1    0    0    -1  
@@ -488,7 +489,7 @@ U 1 1 5B5BDFB8
 P 7750 3950
 F 0 "R12" V 7830 3950 50  0000 C CNN
 F 1 "100R" V 7750 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7680 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 7680 3950 50  0001 C CNN
 F 3 "" H 7750 3950 50  0000 C CNN
 	1    7750 3950
 	1    0    0    -1  
@@ -558,7 +559,7 @@ U 1 1 5B5BDFDE
 P 7900 3950
 F 0 "R13" V 7980 3950 50  0000 C CNN
 F 1 "4.7k" V 7900 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7830 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 7830 3950 50  0001 C CNN
 F 3 "" H 7900 3950 50  0000 C CNN
 	1    7900 3950
 	1    0    0    -1  
@@ -569,7 +570,7 @@ U 1 1 5B5BDFE4
 P 8700 3950
 F 0 "R14" V 8780 3950 50  0000 C CNN
 F 1 "100R" V 8700 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 8630 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 8630 3950 50  0001 C CNN
 F 3 "" H 8700 3950 50  0000 C CNN
 	1    8700 3950
 	1    0    0    -1  
@@ -639,7 +640,7 @@ U 1 1 5B5BE00A
 P 8900 3950
 F 0 "R15" V 8980 3950 50  0000 C CNN
 F 1 "4.7k" V 8900 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 8830 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 8830 3950 50  0001 C CNN
 F 3 "" H 8900 3950 50  0000 C CNN
 	1    8900 3950
 	1    0    0    -1  
@@ -650,7 +651,7 @@ U 1 1 5B5BE010
 P 9700 3950
 F 0 "R16" V 9780 3950 50  0000 C CNN
 F 1 "100R" V 9700 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 9630 3950 50  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 9630 3950 50  0001 C CNN
 F 3 "" H 9700 3950 50  0000 C CNN
 	1    9700 3950
 	1    0    0    -1  
